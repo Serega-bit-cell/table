@@ -1,0 +1,52 @@
+
+table {
+    max-width: 1140px;
+    min-width: 320px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+th, td {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+#chart-container {
+    width: 100%;
+    height: 400px;
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse; /* Убираем пробелы между ячейками */
+}
+
+#data-table th, #data-table td {
+    border: 3px solid #ffffff; /* Цвет границы ячеек */
+    padding: 8px;
+    text-align: center;
+}
+
+#data-table th {
+    background-color: #ebebeb; /* Цвет фона заголовков */
+}
+
+#data-table td {
+    background-color: #ebebeb;  /* Цвет фона ячеек */
+    color: black; /* Цвет текста ячеек */
+}
+/* Стили для столбца "Текущий день" */
+#data-table td:nth-child(2), /* Для ячеек */
+#data-table th:nth-child(2) { /* Для заголовка */
+    background-color: #d8f5ff; /* Голубой цвет */
+}
